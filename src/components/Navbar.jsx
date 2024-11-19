@@ -8,12 +8,15 @@ export default function Navbar() {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-red-500 rounded-b-xl shadow-lg  transition-all duration-300 ease-in-out">
-      <div className="flex justify-between items-center p-6">
-        {/* Left Section */}
-        <div className="flex items-center space-x-4">
-          <span className="text-white font-semibold text-lg">Name</span>
-          <span className="text-white font-semibold text-lg">Company</span>
+    <div className="fixed top-0 left-0 right-0 z-50 bg-red-500 rounded-b-xl shadow-lg transition-all duration-300 ease-in-out">
+      <div className="flex justify-between items-center p-3">
+        {/* Left Section: Image instead of Name and Company */}
+        <div className="flex items-center space-x-2">
+          <img
+            src="https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc5NTIxMzYxODE0NjUz/paul-walker-interview-2009-ftr.jpg" // Replace with your image URL
+            alt="Profile"
+            className="w-12 h-12 rounded-full border-2 border-white" // Make it a rounded image
+          />
         </div>
 
         {/* Hamburger Icon (Mobile Only) */}
