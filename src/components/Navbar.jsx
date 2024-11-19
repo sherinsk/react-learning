@@ -17,6 +17,7 @@ export default function Navbar() {
             alt="Profile"
             className="w-12 h-12 rounded-full border-2 border-white shadow-lg" // Make it a rounded image
           />
+          <span className="font-bold text-white pacifico-regular">Sherin</span> 
         </div>
 
         {/* Hamburger Icon (Mobile Only) */}
@@ -46,8 +47,10 @@ export default function Navbar() {
         </div>
 
         {/* Right Section (Visible on Larger Screens) */}
-        <div className="hidden sm:flex space-x-4">
-          <span className="text-white font-semibold text-lg">Logout</span>
+        <div className="hidden sm:flex space-x-4 px-16">
+          <span className="text-white font-semibold text-lg">Skills</span>
+          <span className="text-white font-semibold text-lg">Projects</span>
+          <span className="text-white font-semibold text-lg">Contact</span>
         </div>
       </div>
 
@@ -57,10 +60,10 @@ export default function Navbar() {
           isMobileMenuOpen ? "max-h-[200px] opacity-100" : "max-h-0 opacity-0"
         } sm:hidden bg-red-500 rounded-b-xl shadow-md transition-all duration-500 ease-in-out overflow-hidden`}
       >
-        <div className="flex flex-col items-center py-4 space-y-4">
-          <span className="text-white font-semibold text-lg">Name</span>
-          <span className="text-white font-semibold text-lg">Company</span>
-          <span className="text-white font-semibold text-lg">Logout</span>
+        <div className="flex flex-col items-end px-4 py-4 space-y-1">
+          <span className="text-white font-semibold text-lg">Skills</span>
+          <span className="text-white font-semibold text-lg">Projects</span>
+          <span className="text-white font-semibold text-lg">Contact</span>
         </div>
       </div>
     </div>
