@@ -13,9 +13,9 @@ export default function Navbar() {
         {/* Left Section: Image instead of Name and Company */}
         <div className="flex items-center space-x-2">
           <img
-            src="https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc5NTIxMzYxODE0NjUz/paul-walker-interview-2009-ftr.jpg" // Replace with your image URL
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvLsaKOzn4pQaDVVVZ4RX-Zmukkho-cwCjPYeSAOPkpF4DJKORn3R18Zx1ubHRfEkw72z69uHA5CWxNe8PLJ2f7wgg3rP-G7nq1DaSjphFtfzVQFFCYuHmfUmZLLK8gw1XJNuaDkFHGSkuzgm2kZmPDz66EFkr7qv46PgDVq6I9TYEqDDTpOtogEfiWU/s320/PSX_20240711_004941.jpg" // Replace with your image URL
             alt="Profile"
-            className="w-12 h-12 rounded-full border-2 border-white" // Make it a rounded image
+            className="w-12 h-12 rounded-full border-2 border-white shadow-lg" // Make it a rounded image
           />
         </div>
 
