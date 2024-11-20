@@ -47,7 +47,7 @@ export default function Navbar() {
         </div>
 
         {/* Right Section (Visible on Larger Screens) */}
-        <div className="hidden sm:flex space-x-2 px-4">
+        <div className="hidden sm:flex space-x-4 px-8">
           <span className="text-white font-semibold text-sm exo">SKILLS</span>
           <span className="text-white font-semibold text-sm exo">PROJECTS</span>
           <span className="text-white font-semibold text-sm exo">CONTACT ME</span>
