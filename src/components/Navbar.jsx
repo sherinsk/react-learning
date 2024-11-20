@@ -29,7 +29,7 @@ export default function Navbar() {
             {/* Hamburger Icon */}
             <svg
               className={`w-6 h-6 transform transition-transform duration-300 ease-in-out ${
-                isMobileMenuOpen ? "rotate-45" : ""
+                isMobileMenuOpen ? "rotate-90" : ""
               }`}
               fill="none"
               stroke="currentColor"
