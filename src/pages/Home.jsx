@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex w-full h-screen bg-black p-3 gap-3 flex-col lg:flex-row">
   {/* Left Div */}
-  <div className="w-full h-screen lg:h-fit lg:w-1/4 bg-red-500 text-white flex flex-col items-center rounded-xl shadow-lg mt-20">
+  <div className="w-full justify-around py-20 lg:py-0 h-screen lg:h-fit lg:w-1/4 bg-red-500 text-white flex flex-col items-center rounded-xl shadow-lg mt-20">
     {/* Profile Image */}
     <div>
       <img
@@ -14,11 +14,14 @@ export default function Home() {
       />
     </div>
     {/* Text Section */}
-    <div className="mt-4 text-center">
-      {/* Designation */}
-      <h2 className="text-xl font-semibold">SHERIN SK</h2>
+    <div className="text-center">
+            {/* Designation */}
+            <h2 className="text-xl font-semibold">SHERIN SK</h2>
       <h4 className="text-xl font-semibold">Jr. Backend Developer</h4>
       <h4 className="text-xl font-semibold">Tech Butomy Pvt. Ltd.</h4>
+    </div>
+    <div className="mt-4 text-center">
+
       {/* About Section */}
       <p className="text-sm text-gray-400 p-2">
         Passionate about coding and creating scalable backend solutions. Loves working on innovative projects and learning new technologies.
