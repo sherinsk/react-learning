@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex w-full h-screen bg-black p-3 gap-3 flex-col lg:flex-row">
   {/* Left Div */}
-  <div className="w-full lg:w-1/4 bg-red-500 text-white flex flex-col items-center rounded-xl shadow-lg mt-20">
+  <div className="w-full h-screen lg:h-fit lg:w-1/4 bg-red-500 text-white flex flex-col items-center rounded-xl shadow-lg mt-20">
     {/* Profile Image */}
     <div>
       <img
