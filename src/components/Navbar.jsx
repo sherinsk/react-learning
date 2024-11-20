@@ -17,7 +17,7 @@ export default function Navbar() {
             alt="Profile"
             className="w-12 h-12 rounded-full border-2 border-white shadow-lg" // Make it a rounded image
           />
-          <span className="font-bold text-white pacifico-regular">Sherin</span> 
+          <span className="font-bold text-white pacifico-regular">SHERIN SK</span> 
         </div>
 
         {/* Hamburger Icon (Mobile Only) */}
