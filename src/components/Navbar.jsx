@@ -17,7 +17,7 @@ export default function Navbar() {
             alt="Profile"
             className="w-12 h-12 rounded-full border-2 border-white shadow-lg" // Make it a rounded image
           />
-          <span className="font-bold text-white pacifico-regular">SHERIN SK</span> 
+          <span className="font-bold text-white pacifico-regular">PORTFOLIO</span> 
         </div>
 
         {/* Hamburger Icon (Mobile Only) */}
@@ -49,7 +49,9 @@ export default function Navbar() {
         {/* Right Section (Visible on Larger Screens) */}
         <div className="hidden sm:flex space-x-4 px-8">
           <span className="text-white font-semibold text-sm exo">SKILLS</span>
+          <span className="text-white font-semibold text-sm exo">|</span>
           <span className="text-white font-semibold text-sm exo">PROJECTS</span>
+          <span className="text-white font-semibold text-sm exo">|</span>
           <span className="text-white font-semibold text-sm exo">CONTACT ME</span>
         </div>
       </div>
