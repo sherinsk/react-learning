@@ -8,7 +8,7 @@ export default function Navbar() {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-red-500 rounded-b-xl shadow-lg transition-all duration-300 ease-in-out">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-red-500 shadow-lg transition-all duration-300 ease-in-out">
       <div className="flex justify-between items-center p-3">
         {/* Left Section: Image instead of Name and Company */}
         <div className="flex items-center space-x-2">
