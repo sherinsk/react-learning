@@ -87,7 +87,7 @@ export default function Home() {
               <Linkedin size={24} strokeWidth={1.5} />
             </a>
             <a
-              href="https://www.instagram.com/sherin_sk/profilecard/?igsh=MW9tejlqemUwYmU0cg=="
+              href="https://www.instagram.com/sherin_sk"
               className="text-pink-500 hover:text-pink-700"
               aria-label="Instagram"
             >
