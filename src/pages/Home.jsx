@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full bg-black text-white marquee my-12 max-h-20 lg:max-h-8 flex items-center">
+        <div className="w-full bg-black text-white marquee my-12 max-h-16 lg:max-h-8 flex items-center">
           <div className="track">
             <p className="content">
               I am a passionate and talented Junior Backend Developer currently
