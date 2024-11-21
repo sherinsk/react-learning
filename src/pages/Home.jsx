@@ -1,10 +1,11 @@
 import React from "react";
-
+import WorkIcon from '@mui/icons-material/Work';
+import{Briefcase} from 'lucide-react'
 export default function Home() {
   return (
     <div className="flex w-full h-screen bg-black gap-3 flex-col lg:flex-row">
   {/* Left Div */}
-  <div className="w-full justify-around lg:py-20 h-screen lg:h-fit lg:w-1/4 bg-red-500 text-white flex flex-col items-center shadow-lg">
+  <div className="w-full justify-around lg:py-20 h-fit lg:h-fit lg:w-1/4 bg-red-500 text-white flex flex-col items-center shadow-lg">
     {/* Profile Image */}
     <div>
       <img
@@ -15,11 +16,16 @@ export default function Home() {
     </div>
     {/* Text Section */}
     <div className="text-center">
-            {/* Designation */}
-            <h2 className="text-xl font-semibold">SHERIN SK</h2>
-      <h4 className="text-xl font-semibold">Jr. Backend Developer</h4>
-      <h4 className="text-xl font-semibold">Tech Butomy Pvt. Ltd.</h4>
-    </div>
+  {/* Name */}
+  <h2 className="text-xl font-semibold">SHERIN SK</h2>
+  <p className="text-sm text-white-400">Jr. Backend Developer</p>
+  {/* Other Details */}
+  <div className="text-left mx-auto mt-2 w-fit p-6">
+    <div className="text-sm text-gray-400 flex"><Briefcase size={20} strokeWidth={1} /><p>Tech Butomy Pvt. Ltd.</p></div>
+    <p className="text-sm text-gray-400">Studied Mechanical Engineering at Government Engineering College, Bartonhill</p>
+  </div>
+</div>
+
     <div className="mt-4 text-center">
 
       {/* About Section */}
