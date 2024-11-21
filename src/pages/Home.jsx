@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full bg-black text-white marquee my-12 max-h-16 lg:max-h-8 flex items-center">
+        <div className="w-full bg-black text-white marquee my-12 max-h-16 lg:max-h-16 flex items-center">
           <div className="track">
             <p className="content">
               I am a passionate and talented Junior Backend Developer currently
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         {/* Social Links Section */}
-        <div className=" w-3/4 bg-red-500 text-black p-6 rounded-lg shadow-2xl">
+        <div className=" w-3/4 bg-white text-black p-6 rounded-lg shadow-2xl">
           <p className="text-center text-sm font-semibold mb-2">Social Links</p>
           <div className="flex justify-center space-x-4">
             {/* Replace # with actual links */}

@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Left Section: Image instead of Name and Company */}
         <div className="flex items-center space-x-2">
           <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvLsaKOzn4pQaDVVVZ4RX-Zmukkho-cwCjPYeSAOPkpF4DJKORn3R18Zx1ubHRfEkw72z69uHA5CWxNe8PLJ2f7wgg3rP-G7nq1DaSjphFtfzVQFFCYuHmfUmZLLK8gw1XJNuaDkFHGSkuzgm2kZmPDz66EFkr7qv46PgDVq6I9TYEqDDTpOtogEfiWU/s320/PSX_20240711_004941.jpg" // Replace with your image URL
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihxWZs02sJfhLfbC4__LPm3oixB93YE5ryf4Hxs1XVlKeGYl7qu62oaIv5HUMC6n8C8aUuQe7MZ3Qu3dP3LcpBY2mAjjfl8oAc6FF9zCWsVWInAmefvOAhmj5ivCfy5HX0IDJ2J50IGtc-XVZjZLbDpgUwYnLFxvMrPzn048SKLLMRwyL0AlvqPEADpKk/s320/1719723519311%20(1).jpg" // Replace with your image URL
             alt="Profile"
             className="w-12 h-12 rounded-full border-2 border-white shadow-lg" // Make it a rounded image
           />
