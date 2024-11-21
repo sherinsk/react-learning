@@ -1,11 +1,11 @@
 import React from "react";
-import { Briefcase, School, Linkedin, Instagram, Github, Twitter } from "lucide-react";
+import { Briefcase, School, Linkedin, Instagram, Github, WhatsApp } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="flex w-full h-screen bg-black flex-col lg:flex-row">
       {/* Left Div */}
-      <div className="w-full justify-normal lg:py-8 h-screen lg:w-1/4 bg-red-500 text-white flex flex-col items-center shadow-lg">
+      <div className="w-full justify-around lg:justify-normal lg:py-8 h-screen lg:w-1/4 bg-red-500 text-white flex flex-col items-center shadow-lg">
         {/* Profile Image */}
         <div className="mb-4 mt-20">
           <img
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         {/* Social Links Section */}
-        <div className="mt-4 w-3/4 bg-white text-black p-4 rounded-lg shadow-md">
+        <div className=" w-3/4 bg-red-500 text-black p-6 rounded-lg shadow-md">
           <p className="text-center text-sm font-semibold mb-2">Social Links</p>
           <div className="flex justify-center space-x-4">
             {/* Replace # with actual links */}
@@ -67,13 +67,6 @@ export default function Home() {
               aria-label="GitHub"
             >
               <Github size={24} strokeWidth={1.5} />
-            </a>
-            <a
-              href="#"
-              className="text-blue-400 hover:text-blue-600"
-              aria-label="Twitter"
-            >
-              <Twitter size={24} strokeWidth={1.5} />
             </a>
           </div>
         </div>
