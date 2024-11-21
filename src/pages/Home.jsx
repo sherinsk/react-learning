@@ -80,21 +80,21 @@ export default function Home() {
           <div className="flex justify-center space-x-4">
             {/* Replace # with actual links */}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sherin-sk1996/"
               className="text-blue-600 hover:text-blue-800"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} strokeWidth={1.5} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/sherin_sk/profilecard/?igsh=MW9tejlqemUwYmU0cg=="
               className="text-pink-500 hover:text-pink-700"
               aria-label="Instagram"
             >
               <Instagram size={24} strokeWidth={1.5} />
             </a>
             <a
-              href="#"
+              href="https://github.com/sherinsk"
               className="text-gray-800 hover:text-gray-900"
               aria-label="GitHub"
             >
