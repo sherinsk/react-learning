@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         {/* Social Links Section */}
-        <div className=" w-3/4 bg-red-500 text-black p-6 rounded-lg shadow-lg">
+        <div className=" w-3/4 bg-red-500 text-black p-6 rounded-lg shadow-lg mt-20">
           <p className="text-center text-sm font-semibold mb-2">Social Links</p>
           <div className="flex justify-center space-x-4">
             {/* Replace # with actual links */}
