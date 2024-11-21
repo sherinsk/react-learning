@@ -2,9 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { Briefcase, School, Linkedin, Instagram, Github } from "lucide-react";
 
 export default function Home() {
-  
-
-
   return (
     <div className="flex w-full h-screen bg-black flex-col lg:flex-row">
       {/* Left Div */}
@@ -45,8 +42,40 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="w-full bg-black text-white marquee my-6 max-h-8 flex items-center">
+          <div className="track">
+            <p className="content">
+              I am a passionate and talented Junior Backend Developer currently
+              working at Tech Butomy Pvt. Ltd. I focus on building scalable
+              backend systems and am proficient in technologies such as Node.js,
+              Express, Prisma, and Cloudinary. I enjoy working with cron jobs,
+              integrating APIs, and handling file uploads with services like
+              Cloudinary and S3. In addition to backend development, I have
+              experience working with frontend technologies like React, using
+              tools such as Tailwind CSS to create responsive and aesthetically
+              pleasing user interfaces. I am also familiar with integrating
+              features like notifications, chat systems, and user management
+              into web applications. I am working on several exciting projects,
+              including a service booking app called Taskberry and a quiz app
+              named Hexis Stoven. In these projects, I have implemented
+              functionalities like user authentication, push notifications, and
+              messaging systems, all while maintaining a strong focus on clean
+              and efficient code. Outside of work, I am enthusiastic about
+              learning new technologies and frameworks, such as Laravel and
+              PySpark, and am exploring the world of mobile app development with
+              Flutter. I also enjoy solving challenges related to real-time
+              communication, such as building chat systems with Socket.IO, and I
+              am always eager to improve and refine my technical skills. I value
+              creativity and am constantly exploring new ways to improve the
+              user experience through code and design. With a keen interest in
+              both backend and frontend development, I strive to create seamless
+              and efficient applications that provide value to users.
+            </p>
+          </div>
+        </div>
+
         {/* Social Links Section */}
-        <div className=" w-3/4 bg-red-500 text-black p-6 rounded-lg shadow-md">
+        <div className=" w-3/4 bg-red-500 text-black p-6 rounded-lg shadow-lg">
           <p className="text-center text-sm font-semibold mb-2">Social Links</p>
           <div className="flex justify-center space-x-4">
             {/* Replace # with actual links */}
@@ -73,21 +102,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="w-full bg-black text-white py-4 mt-4 marquee">
-         <div className="track">
-          <div className="content">
-          I am a passionate and talented Junior Backend Developer currently working at Tech Butomy Pvt. Ltd. I focus on building scalable backend systems and am proficient in technologies such as Node.js, Express, Prisma, and Cloudinary. I enjoy working with cron jobs, integrating APIs, and handling file uploads with services like Cloudinary and S3.
-          In addition to backend development, I have experience working with frontend technologies like React, using tools such as Tailwind CSS to create responsive and aesthetically pleasing user interfaces. I am also familiar with integrating features like notifications, chat systems, and user management into web applications.
-          I am working on several exciting projects, including a service booking app called Taskberry and a quiz app named Hexis Stoven. In these projects, I have implemented functionalities like user authentication, push notifications, and messaging systems, all while maintaining a strong focus on clean and efficient code.
-          Outside of work, I am enthusiastic about learning new technologies and frameworks, such as Laravel and PySpark, and am exploring the world of mobile app development with Flutter. I also enjoy solving challenges related to real-time communication, such as building chat systems with Socket.IO, and I am always eager to improve and refine my technical skills.
-          I value creativity and am constantly exploring new ways to improve the user experience through code and design. With a keen interest in both backend and frontend development, I strive to create seamless and efficient applications that provide value to users.
-          </div>
-        </div>
-    </div>
-
-  
-
-
       </div>
     </div>
   );
