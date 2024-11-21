@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex w-full h-screen bg-black flex-col lg:flex-row">
       {/* Left Div */}
-      <div className="w-full justify-around lg:justify-normal lg:py-8 h-fit lg:h-screen lg:w-1/4 bg-red-500 text-white flex flex-col items-center shadow-lg">
+      <div className="w-full justify-around lg:justify-normal lg:py-8 h-screen lg:w-1/4 bg-red-500 text-white flex flex-col items-center shadow-lg">
         {/* Profile Image */}
         <div className="mb-4 mt-20">
           <img
