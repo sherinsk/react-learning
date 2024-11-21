@@ -21,8 +21,8 @@ export default function Home() {
   <p className="text-sm text-white-400">Jr. Backend Developer</p>
   {/* Other Details */}
   <div className="text-left mx-auto mt-2 w-fit p-6">
-    <div className="text-sm text-gray-400 flex"><Briefcase size={20} strokeWidth={1} /><p>Tech Butomy Pvt. Ltd.</p></div>
-    <p className="text-sm text-gray-400">Studied Mechanical Engineering at Government Engineering College, Bartonhill</p>
+    <div className="text-sm text-white-400 flex"><Briefcase size={20} strokeWidth={1} /><p>Tech Butomy Pvt. Ltd.</p></div>
+    <p className="text-sm text-white-400">Studied Mechanical Engineering at Government Engineering College, Bartonhill</p>
   </div>
 </div>
 
